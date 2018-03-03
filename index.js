@@ -35,7 +35,7 @@ window.history.pushState = (initialState = {}, ...otherArgs) => {
 
 	const newState = Object.assign({}, initialState, { [KEY]: {} })
 	callHistoryMethod(originalPushState, newState, ...otherArgs)
-	historyState.emit(`new state`, coolState)
+	historyState.emit(`new state`)
 }
 
 window.addEventListener(`popstate`, function onPopState(event) {

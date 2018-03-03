@@ -36,7 +36,7 @@ The `historyState` object is an [event emitter](https://github.com/TehShrike/bet
 
 ### `new state`
 
-Emitted immediately after `pushState` is called.  Emits the state object.
+Emitted immediately after `pushState` is called, while the state object is fresh and shiny.
 
 ### `old state`
 
