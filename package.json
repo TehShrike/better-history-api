@@ -1,0 +1,23 @@
+{
+  "name": "better-history-api",
+  "version": "1.0.0",
+  "description": "A better way to interact with the browser history API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/better-history-api.git"
+  },
+  "keywords": [
+    "browser",
+    "history"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/better-history-api/issues"
+  },
+  "homepage": "https://github.com/TehShrike/better-history-api#readme"
+}
